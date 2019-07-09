@@ -14,8 +14,17 @@
     <name>hello-springboot</name>
     <description>example for spring boot</description>
 
+    <modules>
+        <module>springboot-initialise</module>
+        <module>springboot-security</module>
+        <module>springboot-springsecurity-jwt-mybatis-plus</module>
+        <module>transaction-propagation</module>
+        <module>springboot-docker</module>
+    </modules>
+
     <properties>
         <java.version>1.8</java.version>
+        <maven.test.skip>true</maven.test.skip>
     </properties>
 
     <dependencies>
