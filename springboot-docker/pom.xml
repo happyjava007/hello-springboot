@@ -15,7 +15,7 @@
     <description>SpringBoot:使用Docker构建、运行、发布一个SpringBoot应用</description>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>1.8</java.version>
         <maven.test.skip>true</maven.test.skip>
         <docker.image.prefix>happy</docker.image.prefix>
         <project.artifactId>springboot</project.artifactId>
