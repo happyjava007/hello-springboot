@@ -15,7 +15,7 @@ Spring Boot教程大全，Spring Boot知识点样例代码。
 
 
 
-本人博客地址：http://blog.happyjava
+本人博客地址：http://blog.happyjava.cn
 
 本人掘金地址：https://juejin.im/user/5cc2895df265da03a630ddca
 
