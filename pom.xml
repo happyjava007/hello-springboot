@@ -20,6 +20,7 @@
         <module>springboot-springsecurity-jwt-mybatis-plus</module>
         <module>transaction-propagation</module>
         <module>springboot-docker</module>
+        <module>springboot-springcache</module>
     </modules>
 
     <properties>
