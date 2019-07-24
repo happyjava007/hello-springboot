@@ -8,33 +8,38 @@
         <version>2.1.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>cn.happyjava</groupId>
-    <artifactId>hello-springboot</artifactId>
+    <groupId>cn.happyjava.hello.springboot</groupId>
+    <artifactId>springboot-cache-redis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hello-springboot</name>
-    <description>example for spring boot</description>
-
-    <modules>
-        <module>springboot-initialise</module>
-        <module>springboot-security</module>
-        <module>springboot-springsecurity-jwt-mybatis-plus</module>
-        <module>transaction-propagation</module>
-        <module>springboot-docker</module>
-        <module>springboot-springcache</module>
-        <module>springboot-cache-redis</module>
-    </modules>
+    <name>springboot-cache-redis</name>
+    <description>spring cache redis</description>
 
     <properties>
-        <java.version>1.8</java.version>
-        <maven.test.skip>true</maven.test.skip>
+        <java.version>11</java.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
